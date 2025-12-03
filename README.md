@@ -29,7 +29,7 @@ f)	Adjust Iam role trust relationship to enable the role can be assumed by itsel
                 {
                     "Effect": "Allow",
                      "Principal": {
-                     "AWS": "arn:aws:iam::665645643210:role/admin"
+                     "AWS": "arn:aws:iam::665645643210:role/admin" ## update the arn
                     },
                      "Action": "sts:AssumeRole"
         }
